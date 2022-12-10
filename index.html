@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <!-- <script src="./js/variables.js" defer></script> -->
+    <script src="./js/info.js" defer></script>
+</head>
+
+<body>
+    <div class="container center">
+        <div class="form-switch">
+            <div class="register active-title">
+                <h3>Register</h3>
+            </div>
+            <div class="login">
+                <h3>Login</h3>
+            </div>
+        </div>
+        <span class="switch-line active-register"></span>
+        <div class="card">
+            <div class="front-side center">
+                <div class="front-title">
+                    <h2>Register</h2>
+                </div>
+                <form class="form-register">
+                    <span class="username-title">Your Username</span>
+                    <input type="text" class="username-front" placeholder="Example: DamirkaLoveForever" />
+                    <span class="email-title">Your email</span>
+                    <input type="email" class="email-front" placeholder="Example: damirkatop@gmail.com" />
+                    <span class="password-title">Your Password</span>
+                    <input type="password" class="password-front" placeholder="Example: damirka.the.best6677#@" />
+                    <button class="submit-front">Submit</button>
+                </form>
+            </div>
+            <div class="back-side center">
+                <div class="front-title">
+                    <h2>Login</h2>
+                </div>
+                <form class="form-login">
+                    <span class="email-title">Your email</span>
+                    <input type="email" class="email-back" placeholder="Example: damirkatop@gmail.com" />
+                    <span class="password-title">Your Password</span>
+                    <input type="password" class="password-back" placeholder="Example: damirka.the.best6677#@" />
+                    <span class="forgot-password"><a href="#">Forgot your password?</a></span>
+                    <button class="submit-back">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="caution-container hidden">
+            <h2>Error!</h2>
+            <p class="err-message">Error detected: Input field cannot be empty!</p>
+        </div>
+    </div>
+    <div class="container-password-change hidden">
+        <div class="card-password-change">
+            <h3>If you forgot your password</h3>
+            <span class="email-title">Your email</span>
+            <input type="email" class="reset-email" placeholder="Example: damirkatop@gmail.com" />
+            <div class="flex"><span class="capha-title"> Enter the value here: </span> <span class="capha"> 111 </span>
+            </div>
+            <input type="text" class="capha-input" placeholder="Value" />
+            <div class="active-reset hidden">
+                <span class="new-password-title">Your new password</span>
+                <input type="password" class="reset-password" placeholder="Example: damirka.the.best6677#@" />
+                <button class="submit-reset">Submit</button>
+            </div>
+            <a class="reset-exit-btn" href="#">Exit</a>
+        </div>
+    </div>
+    <div class="container-user hidden">
+        <figure class="alert-user">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/User.svg/1200px-User.svg.png"
+                alt="User-logo">
+            <figcaption class="alert-user-info">
+                <h3 class="alert-user-name">User</h3>
+                <p class="alert-user-email">Email</p>
+            </figcaption>
+            <a class="exit-btn" href="#">Exit</a>
+        </figure>
+    </div>
+
+</body>
+
+</html>
